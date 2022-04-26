@@ -4,3 +4,5 @@ matplotlib
 scikit-learn
 opencv-python
 scipy
+tensorflow
+tensorflow_datasets
