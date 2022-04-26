@@ -1,11 +1,13 @@
 Using colab in VS code:
 https://colab.research.google.com/github/JayThibs/jacques-blog/blob/master/_notebooks/2021-09-27-connect-to-colab-from-local-vscode.ipynb#scrollTo=gdZfGrdHD3AW
+
 Cloudflare releases (download and run the .msi):
 https://github.com/cloudflare/cloudflared/releases
 download the .exe as well and rename to cloudflare.exe
-when adding the file path to the ssh config file use /path/cloudflared
-use the run in terminal option from the colab notebook – password is None
+when adding the file path to the ssh config file use /path/cloudflared without .exe
+use the 'run in terminal' option from the colab notebook – password is None
 then try opening the repo with the “one click” option in the colab notebook. Password is None
+You can also copy the host name and connect from inside VS Code.
 
 For some reason I only could get this to work by running from the terminal the first time. After that is seemed to work consistently.
 You will need to install VS Code extensions on the remote connection, and be sure to select the venv as the Python kernel.
